@@ -1,10 +1,11 @@
 import { Link, useLocation, useNavigate } from "@tanstack/react-router";
-import { LayoutDashboard, Users, BarChart3, LogOut } from "lucide-react";
+import { LayoutDashboard, Users, BarChart3, LogOut, PieChart } from "lucide-react";
 import { useAuth } from "@/hooks/use-auth";
 import lignumLogo from "@/assets/lignum.png.asset.json";
 import { Button } from "@/components/ui/button";
 
 const NAV = [
+  { to: "/dashboard", label: "Dashboard", Icon: PieChart },
   { to: "/painel", label: "Painel", Icon: LayoutDashboard },
   { to: "/equipe", label: "Equipe", Icon: Users },
   { to: "/relatorios", label: "Relatórios", Icon: BarChart3 },
