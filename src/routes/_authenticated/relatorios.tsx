@@ -129,8 +129,8 @@ function Relatorios() {
           </div>
 
           <div className="border-t-4 border-primary px-6 py-4 text-center italic text-sm bg-primary/5">
-            "Ninguém constrói uma obra relevante com o tempo que sobra; constrói com o tempo que dedica."
-            <div className="not-italic text-xs text-muted-foreground mt-1">— Mário Sérgio Cortella</div>
+            "Ninguém constrói uma obra relevante com o tempo que sobra, constrói com o tempo que dedica."
+            <div className="not-italic text-xs text-muted-foreground mt-1">— Mário Sérgio Cortella </div>
           </div>
         </div>
       </div>
