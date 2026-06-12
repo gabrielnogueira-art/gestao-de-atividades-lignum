@@ -63,8 +63,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "TaskTracker — Lignum Ambiental Jr." },
+      { title: "Gestão de Atividades — Lignum Ambiental Jr." },
       { name: "description", content: "Sistema de acompanhamento de tarefas, reuniões e prospecção da Lignum Ambiental Jr." },
+      { property: "og:title", content: "Gestão de Atividades — Lignum Ambiental Jr." },
+      { name: "twitter:title", content: "Gestão de Atividades — Lignum Ambiental Jr." },
+      { property: "og:description", content: "Sistema de acompanhamento de tarefas, reuniões e prospecção da Lignum Ambiental Jr." },
+      { name: "twitter:description", content: "Sistema de acompanhamento de tarefas, reuniões e prospecção da Lignum Ambiental Jr." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6a16122e-9aa6-4ec8-a823-24ad2004af9d/id-preview-52192c26--6aa2004b-624e-4df4-98b1-e61c286fdb6e.lovable.app-1781219600762.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6a16122e-9aa6-4ec8-a823-24ad2004af9d/id-preview-52192c26--6aa2004b-624e-4df4-98b1-e61c286fdb6e.lovable.app-1781219600762.png" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:type", content: "website" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
